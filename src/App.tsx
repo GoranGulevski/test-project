@@ -1,11 +1,11 @@
-import logo from './assets/logo.svg';
 import styles from './App.module.scss';
 
 function App() {
     return (
         <div className={styles.App}>
             <header className={styles['App-header']}>
-                <img src={logo} className={styles['App-logo']} alt="logo" />
+                <button className={styles['App-skipButton']}>Skip</button>
+                <img src="public/img/Ellipse 7.png" />
                 <p>
                     Edit <code>src/App.tsx</code> and save to reload.
                 </p>
@@ -15,7 +15,7 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Learn React
+                    Learn{'Learn '}
                 </a>
             </header>
         </div>
