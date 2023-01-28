@@ -5,7 +5,7 @@ function App() {
         <div className={styles.App}>
             <header className={styles['App-header']}>
                 <button className={styles['App-skipButton']}>Skip</button>
-                <img src="public/img/Ellipse 7.png" />
+                <img src="public/Ellipse 7.png" />
                 <p>
                     Edit <code>src/App.tsx</code> and save to reload.
                 </p>
