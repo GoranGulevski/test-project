@@ -5,7 +5,14 @@ function App() {
         <div className={styles.App}>
             <header className={styles['App-header']}>
                 <button className={styles['App-skipButton']}>Skip</button>
-                <img src="public/Ellipse 7.png" />
+                <img
+                    src="https://raw.githubusercontent.com/GoranGulevski/test-project/main/public/img/pexels-lynda-sanchez-1777813.png?token=GHSAT0AAAAAAB6BOYMGONDPH5Z23NOLBDYOY6VQK2Q"
+                    className={styles.coverImg}
+                />
+                <img
+                    src="https://raw.githubusercontent.com/GoranGulevski/test-project/main/public/img/Ellipse%207.png?token=GHSAT0AAAAAAB6BOYMHKBGB6R27SGZMMY4YY6VQM4Q"
+                    className={styles.eclipseImg}
+                />
                 <p>
                     Edit <code>src/App.tsx</code> and save to reload.
                 </p>

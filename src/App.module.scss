@@ -47,10 +47,21 @@
   opacity: 1;
   position: relative;
   color: #1a1a1a;
-  bottom: 9em;
-  left: 12em;
   box-shadow: 0.71px 0.71px rgba(186, 48, 48, 0);
   background-color: #ffffff;
   overflow: auto;
   border: 0px dotted black;
+  font-family: Arial, sans-serif;
+  left: 11.5em;
+  bottom: 13em;
+  font-weight: 500;
+  font-style: normal;
+}
+.coverImg {
+  width: 76%;
+}
+.eclipseImg {
+  position: absolute;
+  width: 100%;
+  top: 55px;
 }
